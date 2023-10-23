@@ -25,15 +25,15 @@
   display: flex;
   flex-direction: row;
   gap: 32px;
-  list-style: circle;
   color: #000;
   font-size: 18px;
   line-height: normal;
+  list-style: circle;
 }
 
 .header__link {
-  text-decoration: none;
   border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .header__links-list-item_no-bullit {
@@ -53,8 +53,8 @@
 
 .address {
   font-size: 18px;
-  line-height: 24.3px;
   font-style: normal;
+  line-height: 24.3px;
   text-underline-offset: 4px;
 }
 
@@ -93,9 +93,9 @@
 }
 
 .text-center {
-  text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .text-right {
@@ -140,19 +140,19 @@
 }
 
 .lots__heading {
+  padding-left: 40px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  padding-left: 40px;
 }
 
 .lots__card-list {
   display: flex;
   flex-direction: row;
   gap: 25px;
+  min-width: 1340px;
   padding-top: 27px;
   list-style: none;
-  min-width: 1340px;
 }
 
 .cards__content {
@@ -183,10 +183,10 @@
 }
 
 .card {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   min-width: 430px;
   min-height: 450px;
   background-size: cover;
@@ -195,9 +195,9 @@
 .card-link {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
   z-index: 1;
 }
 
@@ -236,10 +236,10 @@
   align-items: center;
   width: 240px;
   height: 240px;
+  margin-right: 95px;
+  margin-left: 95px;
   border-radius: 50%;
   background-color: #000;
-  margin-left: 95px;
-  margin-right: 95px;
 }
 
 .about__logo-image {
@@ -290,11 +290,11 @@
 .footer__social-list {
   display: flex;
   flex-direction: row;
+  justify-self: right;
+  justify-content: space-between;
   width: 240px;
   height: 48px;
   list-style: none;
-  justify-self: right;
-  justify-content: space-between;
 }
 
 .footer__menu {
@@ -320,11 +320,4 @@
 
 .footer__social-icon {
   height: 48px;
-}
-
-.footer__social-list {
-  display: flex;
-  flex-direction: row;
-  justify-self: right;
-  justify-content: space-between;
 }
