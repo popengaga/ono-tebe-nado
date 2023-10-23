@@ -293,6 +293,8 @@
   width: 240px;
   height: 48px;
   list-style: none;
+  justify-self: right;
+  justify-content: space-between;
 }
 
 .footer__menu {
