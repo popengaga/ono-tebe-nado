@@ -110,7 +110,7 @@
   letter-spacing: 60px;
 }
 
-.accent-span-no-spacing{
+.accent-span-no-spacing {
   letter-spacing: normal;
 }
 
@@ -225,7 +225,7 @@
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.lots__look-more{
+.lots__look-more {
   display: block;
   padding-top: 30px;
   padding-left: 40px;
@@ -325,12 +325,12 @@
 
 }
 
-.footer__link{
+.footer__link {
   border-bottom: 1px solid #000;
   text-decoration: none;
 }
 
-.footer__link_active .footer__link{
+.footer__link_active .footer__link {
   text-decoration: none;
 }
 
